@@ -2,6 +2,7 @@
 So by default the shortcuts are set to Shift + Alt + Left / Right arrow.
 
 To install:
+
 0. download/git clone the repo
 1. Go to: chrome://extensions
 2. turn on dev mode toggle in upper right corner
@@ -18,6 +19,11 @@ Also small thanks to chromium extension for serving as reference: https://github
 
 # Not thanks
 Chome/Chromium keep up their bullshit: no chrome extension can use Alt + Ctrl combo together in the same shortcut. Super annoying!
+
+see: https://developer.chrome.com/docs/extensions/mv2/reference/commands#key-combinations
+
+![image](./stupid-google-crap.png)
+
 
 
 # License
