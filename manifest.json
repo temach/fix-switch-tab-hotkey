@@ -1,0 +1,31 @@
+{
+  "name": "Fix switch tab hotkey in chromium",
+  "version": "1.0.0",
+  "description": "Allows users to fix tab hotkey instead of Ctrl+Tab/Ctrl+Tab+Shift to any hotkey they want",
+  "author": "Artem Abramov",
+  "manifest_version": 3,
+  "short_name": "Fix switch tab hotkey",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "lefttab": {
+      "suggested_key": {
+        "default": "Shift+Alt+Left"
+      },
+      "description": "View tab to the left"
+    },
+    "righttab": {
+      "suggested_key": {
+        "default": "Shift+Alt+Right"
+      },
+      "description": "View tab to the right"
+    }
+  },
+  "action": {
+    "default_icon": "left-tab-right-tab.png"
+  },
+  "icons": {
+    "128": "left-tab-right-tab.png"
+  }
+}
